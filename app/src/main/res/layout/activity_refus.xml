@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+
+    android:background="#4687A6">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pourquoi refusez-vous cette demande ?"
+        android:textSize="20sp"
+        android:textColor="#F88D00"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        >
+
+        <RadioGroup
+            android:id="@+id/radioGroupRefus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <RadioButton
+                android:id="@+id/radioRaison1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trop de demandes aujourd’hui"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioRaison2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trajet incompatible"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioRaison3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autre raison"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnValiderRefus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        android:textSize="16sp"
+        android:backgroundTint="#FF9422"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center" />
+</LinearLayout>

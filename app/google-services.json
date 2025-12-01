@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "600671255898",
+    "project_id": "transportinterne",
+    "storage_bucket": "transportinterne.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600671255898:android:39ae6883492a39d244c763",
+        "android_client_info": {
+          "package_name": "com.example.transportinterne"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvilYVtEhLgwOkLLjbYRtnWDbiAvOHv3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
